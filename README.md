@@ -1,4 +1,4 @@
-In this code, the formatArrayStrings function takes two arrays as arguments: an array
+In the code written in the arrayManupulation.js file, the formatArrayStrings function takes two arrays as arguments: an array
 of strings (strings) and an array of numbers processed by the processArray function (numbers). 
 It creates a new array called modifiedStrings to store the modified strings
 based on the corresponding numbers. It iterates over each string in the strings array
