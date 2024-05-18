@@ -14,6 +14,7 @@ for (var i = 0; i < numbers.length; i++) {
  return processedArray;
 }
 
+// Task 2
 function formatArrayString(strings,numbers) {
     var modifiedString = [];
 
@@ -30,3 +31,35 @@ function formatArrayString(strings,numbers) {
 }
     return modifiedString;
 }
+
+//var inputArray = [1, 2, 3, 4, 5];
+// var processedArray = processArray(inputArray);
+// var inputStrings = ["apple", "banana", "orange", "grape", "melon"];
+// var modifiedStrings = formatArrayStrings(inputStrings, processedArray);
+// console.log(modifiedStrings);
+
+
+// task 3
+function createUserProfile(names,modifiedNames) {
+    var userProfile = [];
+
+    for (var i = 0; i < names.length; i++) {
+        var name = names[i];
+        var modifiedName = modifiedNames[i];
+    
+    var userProfile ={
+        originalName : name ,
+
+        modifiedName :modifiedName,
+        id: i + 1
+        }
+        
+        userProfiles.push(userProfile);
+    }
+    return userProfiles;
+}
+// e.g
+// var name = ["john","Alice" ,Bobbie "TroY"];
+// var modifiedName = ["JOHN,"Alice","BOBBIE",TROY"];
+// var profile = createUserProfiles(names,modifiedNames);
+// console.log(profiles);
